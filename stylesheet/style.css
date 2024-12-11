@@ -5,9 +5,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: hsl(210, 46%, 95%);
 }
 
 @media only screen and (max-width: 900px) {
+  body {
+    height: 100dvh !important;
+  }
+
   .container {
     display: flex !important;
     flex-direction: column !important;
@@ -20,8 +25,9 @@ body {
 
 .container {
   display: flex;
-  max-width: 90%;
+  max-width: 70%;
   border-radius: 8px;
+  background-color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,7 +37,7 @@ body {
 }
 
 .box {
-  padding-inline: 2rem;
+  padding: 2rem;
 }
 
 .big__text {
